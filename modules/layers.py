@@ -1,7 +1,5 @@
 import tensorflow as tf
 from tensorflow.keras import activations
-from tensorflow.keras.datasets import cifar10
-from tensorflow.keras.regularizers import l2
 from tensorflow.keras.layers import Activation, Add, AveragePooling2D, BatchNormalization, Conv2D, Conv2DTranspose, Dense, Flatten, Input, Reshape, ZeroPadding2D
 
 def dres_conv(x, s, filters):
